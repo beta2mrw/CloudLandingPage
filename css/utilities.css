@@ -698,7 +698,7 @@ color: var(--primary-color) !important;
 }
 
 #main-footer img {
-    width: 150px;
+    width: 120px;
 }
 
 #main-footer a {
@@ -730,9 +730,11 @@ color: var(--primary-color) !important;
 }
 
 #main-footer .address {
-    background-color: #0d0d0d;
+    /* background-color: #0d0d0d; */
     padding: 5px;
     border-radius: 5px;
+    font-size: small;
+    font-style: italic;
     border-bottom: #a9242d 0.5px solid;
 }
 
