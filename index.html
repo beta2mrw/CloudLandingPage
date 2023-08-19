@@ -55,16 +55,17 @@
                 </div>
                 
                 <div>
-                    <i class="fa-solid fa-fingerprint fa-2x"></i>
-                        <h3>Security considerations</h3>
-                        <p>Protect your Website/Webapps from common web exploits and attacks.</p>
-                </div>
-                
-                <div>
                     <i class="fa-solid fa-basket-shopping fa-2x"></i>
                         <h3>E-commerce Cloud Solutions</h3>
                         <p>Set up popular e-commerce platforms like Magento, WooCommerce, or Shopify on cloud to sell products online, all in a PCI compliant environment.</p>
                 </div>
+                
+                <div>
+                    <i class="fa-solid fa-fingerprint fa-2x"></i>
+                        <h3>Security Considerations</h3>
+                        <p>Protect your Website/Webapps from common web exploits and attacks.</p>
+                </div>
+                
             </div>
         </section>
 
@@ -154,7 +155,7 @@
         <section id="Packages" class="packages flex-grid section-padding">
             <header class="section-header"> 
                 <h4><span class="text-primary">Benefits</span></h4>
-                <h2> A wide range of services for computing power, storage, databases, networking, analytics, machine learning, and more.</h2>
+                <h2> Cloud services for computing power, storage, databases, networking, analytics, machine learning, and more.</h2>
             </header>
             <div class="flex-container"> 
                 
@@ -225,83 +226,69 @@
                 <div class="column">
                     <div class="column-2 bg-light">
                         <h2> <span class="text-primary">Request</span> Callback</h2>
-                       <form name="contact"  action="/success.html" method="POST" data-netlify="true" class="callback-form">
-                        <div class="form-control">
-                            <label for="name"></label>
-                            <input type="text" name="name" id="name" placeholder="Enter name">
-                        </div>
-                        <div class="form-control">
-                            <label for="email"></label>
-                            <input type="email" name="email" id="email" placeholder="Enter email">
-                        </div>
-                        <div class="form-control">
-                            <label for="phone"></label>
-                            <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
-                        </div>
-                        <input type="submit" value="Send" id="submit" class="btn">
-                       </form>
+                        <form name="contact" method="POST" data-netlify="true" class="callback-form">
+                            <div class="form-control">
+                                <label for="name"></label>
+                                <input type="text" name="name" id="name" placeholder="Enter name">
+                            </div>
+                            <div class="form-control">
+                                <label for="email"></label>
+                                <input type="email" name="email" id="email" placeholder="Enter email">
+                            </div>
+                            <div class="form-control">
+                                <label for="phone"></label>
+                                <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+                            </div>
+                            <input type="submit" value="Send" id="submit" class="btn">
+                           </form>
                     </div>
                 </div>
             </div>
         </section>
 
+                  <!-- Section B: Contact Info -->
+    <section id="contact-b" class="py-3 bg-dark">
+        <div class="container">
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-envelope fa-1x"></i>
+            
+                    <p>contact@believebusinesses.com</p>
+                </div>
+                <div>
+                    <i class="fas fa-phone fa-1x"></i>
+                   
+                    <p>+91 94629 69717</p>
+                </div>
+                <div>
+                    <i class="fas fa-address-card fa-1x"></i>
+                    
+                    <p>Samarth Complex 29/3 Hosur Main Rd Adugodi Next to Adugodi traffic police station Bangalore, KA 560030</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section C: Tagline -->
+    <section id="contact-c" class="bg-primary py-3">
+        <div class="container">
+            <h1>Start Your Cloud Journey!</h1>
+        </div>
+    </section>
+
     </main>
 
-     <!-- Footer -->
-  <footer id="main-footer" class="py-2">
-    <div class="container footer-container">
-        <div>
-            <p class="address">Address: Samarth complex 29/3 Hosur Main Rd Adugodi Bengaluru, KA 560030</p>
-              
-        </div>
-
-        <div>
-            <img src="img/logo@2x.png" alt="BelieveBusiness">
-        </div>
-        <div>
-            <ul class="list">
-                <li><a href="#support.html">Help & Support</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div>
-            <p>
-                Powered by Gaurangi Web & IT Solutions &copy; 2023.
-            </p>
-        </div>
+<!-- Footer -->
+<footer id="main-footer">
+    <div class="footer-content container">
+        <p>Powered by Gaurangi Web & IT Solutions  &copy; 2023.</p>
+ 
+        <ul class="list">
+         <li><a href="about.html">About Us</a></li>
+         <li><a href="#">Contact</a></li>
+     </ul>
     </div>
-    <!-- Messenger Chat Plugin Code -->
-        <div id="fb-root"></div>
-
-        <!-- Your Chat Plugin code -->
-        <div id="fb-customer-chat" class="fb-customerchat">
-        </div>
-    
-        <script>
-          var chatbox = document.getElementById('fb-customer-chat');
-          chatbox.setAttribute("page_id", "113918731774235");
-          chatbox.setAttribute("attribution", "biz_inbox");
-        </script>
-    
-        <!-- Your SDK code -->
-        <script>
-          window.fbAsyncInit = function() {
-            FB.init({
-              xfbml            : true,
-              version          : 'v17.0'
-            });
-          };
-    
-          (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));
-        </script>
-</footer>
+ </footer>
     <script src="script.js"></script>
 </body>
 </html>
